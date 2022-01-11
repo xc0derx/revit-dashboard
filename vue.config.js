@@ -5,6 +5,9 @@ module.exports = {
     '@speckle/objectloader',
     '@speckle/viewer'
   ],
+  devServer: {
+    disableHostCheck: true
+  },
   pwa: {
     manifestOptions: {
       "name": "Revit Dash",
